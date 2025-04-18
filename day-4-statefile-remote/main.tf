@@ -20,5 +20,4 @@ resource "aws_subnet" "wat" {
 resource "aws_subnet" "tan" {
     cidr_block = "10.0.2.0/24"
     vpc_id = aws_vpc.dev.id
-
 }
