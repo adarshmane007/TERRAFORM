@@ -4,6 +4,6 @@ resource "aws_instance" "name" {
   availability_zone = "us-east-1a"
 
   tags = {
-    Name = "dyno"
+    Name = "meta"
   }
 }
